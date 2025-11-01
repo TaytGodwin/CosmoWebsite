@@ -1,13 +1,22 @@
-﻿namespace EC2Website.API.Data
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace EC2Website.API.Data
 {
+    [Table("pictures")]                // table name in postgres
     public class Picture
     {
-        public int PictureId { get; set; }  // Matches picture_id SERIAL PRIMARY KEY
+        [Key]
+        [Column("picture_id")]         // primary key column
+        public int PictureId { get; set; }
 
-        public string S3Url { get; set; } = string.Empty;  // Matches s3_url TEXT
+        [Column("picture_name")]
+        public string PictureName { get; set; } = string.Empty;
 
-        public string PictureName { get; set; } = string.Empty;  // Matches picture_name TEXT
+        [Column("s3_url")]
+        public string S3Url { get; set; } = string.Empty;
 
-        public decimal? Price { get; set; }  // Matches price DECIMAL(10,2)
+        [Column("price")]
+        public decimal Price { get; set; }
     }
 }
