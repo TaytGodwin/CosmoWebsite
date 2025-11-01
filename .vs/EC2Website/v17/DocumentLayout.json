@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\data\\cosmo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\data\\cosmo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\controllers\\cosmocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\controllers\\cosmocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\data\\cosmodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\data\\cosmodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\data\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\data\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\data\\cosmodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\data\\cosmodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\ec2website.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\ec2website.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|c:\\users\\tater\\onedrive - brigham young university\\classes\\mism\\is 531 enterprise infrastructure\\ec2 website\\backend\\ec2website.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{325BEA33-2E17-47C9-A545-44C26A4DC222}|backend\\EC2Website.API\\EC2Website.API.csproj|solutionrelative:backend\\ec2website.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,100 +41,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 22,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "backend\\EC2Website.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-19T06:16:10.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CosmoController.cs",
-              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Controllers\\CosmoController.cs",
-              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Controllers\\CosmoController.cs",
-              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Controllers\\CosmoController.cs",
-              "RelativeToolTip": "backend\\EC2Website.API\\Controllers\\CosmoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T05:16:36.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Program.cs",
-              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Program.cs",
-              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Program.cs",
-              "RelativeToolTip": "backend\\EC2Website.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T05:13:37.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CosmoDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Data\\CosmoDbContext.cs",
-              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Data\\CosmoDbContext.cs",
-              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Data\\CosmoDbContext.cs",
-              "RelativeToolTip": "backend\\EC2Website.API\\Data\\CosmoDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T05:09:42.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cosmo.cs",
-              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Data\\Cosmo.cs",
-              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Data\\Cosmo.cs",
-              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Data\\Cosmo.cs",
-              "RelativeToolTip": "backend\\EC2Website.API\\Data\\Cosmo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T05:01:34.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\appsettings.json",
-              "RelativeDocumentMoniker": "backend\\EC2Website.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\appsettings.json",
-              "RelativeToolTip": "backend\\EC2Website.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-19T04:53:04.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "backend\\EC2Website.API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T04:50:58.65Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -144,6 +57,19 @@
               "Name": "ST:51:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Picture.cs",
+              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Data\\Picture.cs",
+              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Data\\Picture.cs",
+              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Data\\Picture.cs",
+              "RelativeToolTip": "backend\\EC2Website.API\\Data\\Picture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T02:13:03.087Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
@@ -154,6 +80,95 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EC2Website.API.csproj",
+              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\EC2Website.API.csproj",
+              "RelativeDocumentMoniker": "backend\\EC2Website.API\\EC2Website.API.csproj",
+              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\EC2Website.API.csproj",
+              "RelativeToolTip": "backend\\EC2Website.API\\EC2Website.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-30T01:48:25.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "backend\\EC2Website.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T06:16:10.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CosmoController.cs",
+              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Controllers\\CosmoController.cs",
+              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Controllers\\CosmoController.cs",
+              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Controllers\\CosmoController.cs",
+              "RelativeToolTip": "backend\\EC2Website.API\\Controllers\\CosmoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T05:16:36.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Program.cs",
+              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Program.cs",
+              "RelativeToolTip": "backend\\EC2Website.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T05:13:37.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CosmoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Data\\CosmoDbContext.cs",
+              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Data\\CosmoDbContext.cs",
+              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Data\\CosmoDbContext.cs",
+              "RelativeToolTip": "backend\\EC2Website.API\\Data\\CosmoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T05:09:42.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\appsettings.json",
+              "RelativeDocumentMoniker": "backend\\EC2Website.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\appsettings.json",
+              "RelativeToolTip": "backend\\EC2Website.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T04:53:04.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "backend\\EC2Website.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\EC2Website.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "backend\\EC2Website.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T04:50:58.65Z"
             }
           ]
         },

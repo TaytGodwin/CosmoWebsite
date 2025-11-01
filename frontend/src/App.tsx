@@ -1,51 +1,43 @@
 import './App.css';
 import { CosmoCard } from './components/pictureSqaure';
-import type { Cosmo } from './types/cosmo';
+import type { Picture } from './types/Picture';
+import { useEffect, useState } from 'react';
 
 function App() {
-  // Example data — replace with data fetched from your backend later
-  const cosmos: Cosmo[] = [
-    {
-      id: 1,
-      pictureName: 'Caramel Glazed Doughnut',
-      imageUrl: 'https://your-backend/api/cosmos/1/image',
-    },
-    {
-      id: 2,
-      pictureName: 'Chocolate Sprinkle Doughnut',
-      imageUrl: 'https://your-backend/api/cosmos/2/image',
-    },
-    {
-      id: 3,
-      pictureName: 'Strawberry Frosted Doughnut',
-      imageUrl: 'https://your-backend/api/cosmos/3/image',
-    },
-    {
-      id: 4,
-      pictureName: 'Blueberry Filled Doughnut',
-      imageUrl: 'https://your-backend/api/cosmos/4/image',
-    },
-    {
-      id: 5,
-      pictureName: 'Vanilla Glazed Doughnut',
-      imageUrl: 'https://your-backend/api/cosmos/5/image',
-    },
-    {
-      id: 6,
-      pictureName: 'Sugar Ring Doughnut',
-      imageUrl: 'https://your-backend/api/cosmos/6/image',
-    },
-  ];
+  const [pictures, setPictures] = useState<Picture[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // Change this to your actual backend URL
+  const baseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+
+  useEffect(() => {
+    async function fetchPictures() {
+      try {
+        const response = await fetch(`${baseUrl}/api/pictures`);
+        if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+        const data = (await response.json()) as Picture[];
+        setPictures(data);
+      } catch (err: any) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchPictures();
+  }, [baseUrl]);
+
+  if (loading) return <p>Loading pictures...</p>;
+  if (error) return <p style={{ color: 'red' }}>Error: {error}</p>;
 
   return (
     <div style={{ textAlign: 'center' }}>
       <h1>Pictures of Cosmo</h1>
       <p>Buy framed pictures nationwide.</p>
 
-      {/* Grid container */}
       <div className="cosmo-grid">
-        {cosmos.map((c) => (
-          <CosmoCard key={c.id} cosmo={c} />
+        {pictures.map((p) => (
+          <CosmoCard key={p.pictureId} cosmo={p} />
         ))}
       </div>
     </div>

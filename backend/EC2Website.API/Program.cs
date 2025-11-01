@@ -10,7 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<CosmoDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("CosmoConnection")));
+builder.Services.AddDbContext<CosmoDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("CosmoConnection")));
+
 
 var app = builder.Build();
 
@@ -20,7 +21,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors(x => x.WithOrigins("http://localhost:3000"));
+app.UseCors(x => x
+    .AllowAnyOrigin()
+    .AllowAnyHeader()
+    .AllowAnyMethod());
+
 
 app.UseHttpsRedirection();
 

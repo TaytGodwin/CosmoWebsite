@@ -1,21 +1,26 @@
 ﻿using EC2Website.API.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace EC2Website.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class CosmoController : ControllerBase
+    [Route("api/[controller]")]
+    public class PicturesController : ControllerBase
     {
-            // Instance of context file
-            private CosmoDbContext _cosmoContext;
+        private readonly CosmoDbContext _context;
 
-            public CosmoController(CosmoDbContext temp) => _cosmoContext = temp;
-
-        [HttpGet("CosmoPictures")]
-        public IEnumerable<Cosmo> GetCosmos()
+        public PicturesController(CosmoDbContext context)
         {
-            return _cosmoContext.Cosmos.ToList();
+            _context = context;
+        }
+
+        // GET api/pictures
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Picture>>> GetPictures()
+        {
+            var pictures = await _context.Pictures.AsNoTracking().ToListAsync();
+            return Ok(pictures);
         }
     }
 }

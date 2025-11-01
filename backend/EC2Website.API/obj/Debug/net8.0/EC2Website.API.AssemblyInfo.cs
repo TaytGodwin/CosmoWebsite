@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EC2Website.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+965c708f881b465003c11280639e8baf577f13b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4378306847ddc5761b2370c47deba9a69e028181")]
 [assembly: System.Reflection.AssemblyProductAttribute("EC2Website.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EC2Website.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
