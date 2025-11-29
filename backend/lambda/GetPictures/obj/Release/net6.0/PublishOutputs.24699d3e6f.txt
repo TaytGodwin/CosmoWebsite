@@ -1,0 +1,9 @@
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\publish\GetPictures.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\publish\GetPictures.deps.json
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\publish\GetPictures.runtimeconfig.json
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\publish\GetPictures.pdb
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\publish\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\publish\Amazon.Lambda.Core.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\publish\AWSSDK.Core.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\publish\AWSSDK.DynamoDBv2.dll

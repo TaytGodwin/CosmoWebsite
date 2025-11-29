@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "YrHKhB4dTOk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\lambda\\GetPictures\\GetPictures.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tater\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.2\\amazon.lambda.apigatewayevents.2.7.2.nupkg.sha512",
+    "C:\\Users\\tater\\.nuget\\packages\\amazon.lambda.core\\2.5.0\\amazon.lambda.core.2.5.0.nupkg.sha512",
+    "C:\\Users\\tater\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.4.4\\amazon.lambda.serialization.systemtextjson.2.4.4.nupkg.sha512",
+    "C:\\Users\\tater\\.nuget\\packages\\awssdk.core\\3.7.204.3\\awssdk.core.3.7.204.3.nupkg.sha512",
+    "C:\\Users\\tater\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.203.4\\awssdk.dynamodbv2.3.7.203.4.nupkg.sha512"
+  ],
+  "logs": []
+}
