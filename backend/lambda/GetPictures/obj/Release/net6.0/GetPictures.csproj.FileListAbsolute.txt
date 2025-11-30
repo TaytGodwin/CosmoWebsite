@@ -19,3 +19,8 @@ C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterpris
 C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\obj\Release\net6.0\GetPictures.pdb
 C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\obj\Release\net6.0\GetPictures.genruntimeconfig.cache
 C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\obj\Release\net6.0\ref\GetPictures.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\bin\Release\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\bin\Release\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\bin\Release\net6.0\StackExchange.Redis.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\bin\Release\net6.0\System.IO.Hashing.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\bin\Release\net6.0\System.IO.Pipelines.dll

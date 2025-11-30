@@ -1,0 +1,14 @@
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\GetPictures.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\GetPictures.deps.json
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\GetPictures.runtimeconfig.json
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\GetPictures.pdb
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\Amazon.Lambda.Core.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\AWSSDK.Core.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\AWSSDK.DynamoDBv2.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\Pipelines.Sockets.Unofficial.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\StackExchange.Redis.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\System.IO.Hashing.dll
+C:\Users\tater\OneDrive - Brigham Young University\Classes\MISM\IS 531 Enterprise Infrastructure\EC2 Website\backend\lambda\GetPictures\published\System.IO.Pipelines.dll
