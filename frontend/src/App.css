@@ -1,105 +1,78 @@
-/* ---- Global Layout ---- */
+/* Page background */
 body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background: #f7f7f9;
-  font-family: 'Inter', sans-serif;
-  color: #333;
+  padding: 0;
+  background: #f5f5f7;
+  color: #222;
 }
 
-.container {
-  max-width: 1400px;
-  padding: 40px;
-  margin: auto;
-}
-
-/* ---- Header ---- */
-.header {
+/* Page title */
+h1 {
   text-align: center;
-  margin-bottom: 40px;
-}
-
-.title {
-  font-size: 42px;
+  font-size: 3rem;
+  margin-top: 40px;
+  color: #111;
   font-weight: 700;
-  color: #1a1a1a;
-  margin-bottom: 10px;
 }
 
-.subtitle {
-  font-size: 16px;
-  color: #777;
-}
-
-/* ---- Gallery Grid ---- */
+/* Gallery container */
 .gallery {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 30px;
 }
 
-/* ---- Card ---- */
+/* Individual card */
 .card {
   background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.08);
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.12);
-}
-
-.card-image {
-  width: 100%;
-  height: 240px;
-  object-fit: cover;
-}
-
-.card-body {
+  border-radius: 14px;
   padding: 18px;
-}
-
-.card-title {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.card-text {
-  font-size: 14px;
-  color: #666;
-  margin-top: 6px;
-}
-
-/* ---- Loader ---- */
-.loader {
-  border: 6px solid #eee;
-  border-top: 6px solid #0057ff;
-  border-radius: 50%;
-  width: 55px;
-  height: 55px;
-  margin: 60px auto;
-  animation: spin 0.8s linear infinite;
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* ---- Error ---- */
-.error {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  padding: 14px;
-  background: #ffdddd;
-  color: #b60000;
-  border: 1px solid #ffb3b3;
-  width: 60%;
-  margin: 20px auto;
+}
+
+/* Image styling */
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Price text */
+.price {
+  margin: 12px 0 6px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Description */
+.description {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Buy button */
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
   border-radius: 8px;
+  text-decoration: none;
+  transition: 0.2s;
+  margin-top: auto;
+}
+
+.button:hover {
+  background: #1e4fb6;
 }
