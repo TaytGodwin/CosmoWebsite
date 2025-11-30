@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YrHKhB4dTOk=",
+  "dgSpecHash": "XalhPdslkM4=",
   "success": true,
   "projectFilePath": "C:\\Users\\tater\\OneDrive - Brigham Young University\\Classes\\MISM\\IS 531 Enterprise Infrastructure\\EC2 Website\\backend\\lambda\\GetPictures\\GetPictures.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,14 @@
     "C:\\Users\\tater\\.nuget\\packages\\amazon.lambda.core\\2.5.0\\amazon.lambda.core.2.5.0.nupkg.sha512",
     "C:\\Users\\tater\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.4.4\\amazon.lambda.serialization.systemtextjson.2.4.4.nupkg.sha512",
     "C:\\Users\\tater\\.nuget\\packages\\awssdk.core\\3.7.204.3\\awssdk.core.3.7.204.3.nupkg.sha512",
-    "C:\\Users\\tater\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.203.4\\awssdk.dynamodbv2.3.7.203.4.nupkg.sha512"
+    "C:\\Users\\tater\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.203.4\\awssdk.dynamodbv2.3.7.203.4.nupkg.sha512",
+    "C:\\Users\\tater\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\tater\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\tater\\.nuget\\packages\\stackexchange.redis\\2.10.1\\stackexchange.redis.2.10.1.nupkg.sha512",
+    "C:\\Users\\tater\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\tater\\.nuget\\packages\\system.io.hashing\\9.0.10\\system.io.hashing.9.0.10.nupkg.sha512",
+    "C:\\Users\\tater\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\tater\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
   ],
   "logs": []
 }
