@@ -12,7 +12,7 @@ export default function App() {
   const [pictures, setPictures] = useState<Picture[]>([]);
 
   useEffect(() => {
-    fetch('YOUR_API_URL_HERE')
+    fetch('https://flwg9mklwg.execute-api.us-west-2.amazonaws.com/api/pictures')
       .then((res) => res.json())
       .then((data: Picture[]) => {
         const withPrices = data.map((pic: Picture) => ({
