@@ -18,7 +18,7 @@ phases:
       - printenv | sort
       - echo "Deploying Lambda..."
       - echo "Using function name: $LAMBDA_FUNCTION_NAME"
-      - aws lambda update-function-code --function-name "$LAMBDA_FUNCTION_NAME" --zip-file "fileb://GetPictures.zip"
+      - 'aws lambda update-function-code --function-name "$LAMBDA_FUNCTION_NAME" --zip-file "fileb://GetPictures.zip"'
       - echo "Directory contents after cd:"
       - pwd
       - ls -al
