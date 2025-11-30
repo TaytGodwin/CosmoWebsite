@@ -33,9 +33,12 @@ export default function App() {
             <img src={pic.Url} alt="Cosmo" />
 
             <div className="price-tag">${pic.price}</div>
+
             <div className="description">A high-quality Cosmo photo</div>
 
-            <button className="buy-button">Buy Now</button>
+            <a className="buy-button" href="#">
+              Buy Now
+            </a>
           </div>
         ))}
       </div>

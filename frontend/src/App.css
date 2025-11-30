@@ -1,78 +1,82 @@
 /* Page background */
 body {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f5f5f7;
-  color: #222;
+  background: #1e1e1e;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
 }
 
 /* Page title */
-h1 {
+.store-title {
   text-align: center;
   font-size: 3rem;
-  margin-top: 40px;
-  color: #111;
   font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-/* Gallery container */
-.gallery {
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 20px;
+/* Grid container */
+.gallery-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 30px;
+  padding: 0 40px 60px;
 }
 
-/* Individual card */
-.card {
-  background: white;
-  border-radius: 14px;
-  padding: 18px;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+/* Each card */
+.picture-card {
+  background: #2a2a2a;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.35);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.picture-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.45);
 }
 
 /* Image styling */
-.card img {
+.picture-card img {
   width: 100%;
-  height: 220px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 /* Price text */
-.price {
-  margin: 12px 0 6px 0;
+.price-tag {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #333;
+  margin-top: 15px;
+  color: #3ecf8e; /* Light green accent */
 }
 
-/* Description */
+/* Description text */
 .description {
-  margin-bottom: 20px;
-  color: #666;
   font-size: 0.95rem;
+  margin-top: 8px;
+  color: #dcdcdc;
 }
 
 /* Buy button */
-.button {
+.buy-button {
+  margin-top: 15px;
   display: inline-block;
-  padding: 12px 20px;
-  background: #2563eb;
-  color: white;
-  font-size: 1rem;
-  border-radius: 8px;
+  padding: 10px 20px;
+  background: #3ecf8e;
+  color: #000;
+  font-weight: bold;
+  border-radius: 10px;
   text-decoration: none;
-  transition: 0.2s;
-  margin-top: auto;
+  text-align: center;
+  transition: background 0.2s ease;
 }
 
-.button:hover {
-  background: #1e4fb6;
+.buy-button:hover {
+  background: #32b578;
 }
