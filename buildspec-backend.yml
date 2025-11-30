@@ -14,7 +14,7 @@ phases:
 
   post_build:
     commands:
-      - echo "Using function name: $LAMBDA_FUNCTION_NAME"
+      - echo "Using function name - $LAMBDA_FUNCTION_NAME"
       - 'aws lambda update-function-code --function-name "$LAMBDA_FUNCTION_NAME" --zip-file "fileb://GetPictures.zip"'
       - echo "Directory contents after cd:"
       - pwd
