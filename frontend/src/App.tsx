@@ -1,47 +1,62 @@
-import './App.css';
-import { CosmoCard } from './components/pictureSqaure';
-import type { Picture } from './types/Picture';
 import { useEffect, useState } from 'react';
+import './App.css';
 
-function App() {
+interface Picture {
+  Id: string;
+  Url: string;
+  Description: string;
+}
+
+export default function App() {
   const [pictures, setPictures] = useState<Picture[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState('');
 
-  // Change this to your actual backend URL
-  const baseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const API_URL =
+    'https://flwg9mklwg.execute-api.us-west-2.amazonaws.com/api/pictures';
 
   useEffect(() => {
-    async function fetchPictures() {
-      try {
-        const response = await fetch(`${baseUrl}/api/pictures`);
-        if (!response.ok) throw new Error(`HTTP error ${response.status}`);
-        const data = (await response.json()) as Picture[];
+    fetch(API_URL)
+      .then((res) => {
+        if (!res.ok) throw new Error('Failed to fetch pictures.');
+        return res.json();
+      })
+      .then((data) => {
         setPictures(data);
-      } catch (err: any) {
-        setError(err.message);
-      } finally {
         setLoading(false);
-      }
-    }
-    fetchPictures();
-  }, [baseUrl]);
-
-  if (loading) return <p>Loading pictures...</p>;
-  if (error) return <p style={{ color: 'red' }}>Error: {error}</p>;
+      })
+      .catch(() => {
+        setError('Unable to load pictures at this time.');
+        setLoading(false);
+      });
+  }, []);
 
   return (
-    <div style={{ textAlign: 'center' }}>
-      <h1>Pictures of Cosmo</h1>
-      <p>Buy framed pictures nationwide.</p>
+    <div className="container">
+      <header className="header">
+        <h1 className="title">Cosmo Image Gallery</h1>
+        <p className="subtitle">
+          Powered by AWS Lambda · DynamoDB · S3 · API Gateway
+        </p>
+      </header>
 
-      <div className="cosmo-grid">
-        {pictures.map((p) => (
-          <CosmoCard key={p.pictureId} cosmo={p} />
+      {loading && <div className="loader"></div>}
+
+      {error && <div className="error">{error}</div>}
+
+      <div className="gallery">
+        {pictures.map((pic) => (
+          <div key={pic.Id} className="card">
+            <img src={pic.Url} alt={pic.Id} className="card-image" />
+            <div className="card-body">
+              <h3 className="card-title">{pic.Id.replace('.jpg', '')}</h3>
+              <p className="card-text">
+                {pic.Description || 'No description available'}
+              </p>
+            </div>
+          </div>
         ))}
       </div>
     </div>
   );
 }
-
-export default App;
