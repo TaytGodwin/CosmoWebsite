@@ -1,0 +1,31 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - cd backend/lambda/GetPictures
+      - dotnet tool install -g Amazon.Lambda.Tools
+      - export PATH="$PATH:/root/.dotnet/tools"
+
+  build:
+    commands:
+      - echo "Packaging Lambda..."
+      - dotnet lambda package -c Release -o GetPictures.zip
+
+  post_build:
+    commands:
+      - echo "Environment variables:"
+      - printenv | sort
+      - echo "Deploying Lambda..."
+      - echo "Using function name: $LAMBDA_FUNCTION_NAME"
+      - |
+        aws lambda update-function-code \
+          --function-name "$LAMBDA_FUNCTION_NAME" \
+          --zip-file "fileb://GetPictures.zip"
+      - echo "Directory contents after cd:"
+      - pwd
+      - ls -al
+
+artifacts:
+  files:
+    - backend/lambda/GetPictures/GetPictures.zip
