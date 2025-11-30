@@ -16,20 +16,24 @@ namespace GetPictures
         public Function()
         {
             var client = new AmazonDynamoDBClient();
-            _table = Table.LoadTable(client, "PicturesTable"); // must match your Terraform name
+            _table = Table.LoadTable(client, "PicturesTable");
         }
 
         public async Task<APIGatewayHttpApiV2ProxyResponse> FunctionHandler(
             APIGatewayHttpApiV2ProxyRequest request,
             ILambdaContext context)
         {
-            var scan = await _table.Scan(new ScanOperationConfig()).GetNextSetAsync();
+            // Scan all items in table
+            var items = await _table.Scan(new ScanOperationConfig()).GetNextSetAsync();
 
-            var pictures = scan.Select(item => new Picture
+            // Safe mapping to avoid null exceptions
+            var pictures = items.Select(item => new Picture
             {
-                Id = item["Id"],
-                Url = item.ContainsKey("Url") ? item["Url"] : null,
-                Description = item.ContainsKey("Description") ? item["Description"] : null
+                Id = item.TryGetValue("Id", out var id) ? id.AsString() : "",
+                Url = item.TryGetValue("Url", out var url) ? url.AsString() : "",
+                Description = item.TryGetValue("Description", out var desc)
+                    ? desc.AsString()
+                    : ""
             }).ToList();
 
             return new APIGatewayHttpApiV2ProxyResponse
